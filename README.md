@@ -1,6 +1,6 @@
 # rosbag_tools
 
-This repo contains various tools for dealing with rosbags. Right now, these tools support ROS Noetic.
+This repo contains various tools for dealing with rosbags. Right now, these tools support **ROS Noetic**.
 
 ## Extracting image frames from bag topics 
 
@@ -8,11 +8,11 @@ This repo contains various tools for dealing with rosbags. Right now, these tool
 
 ### Script
 
-Run: `python /rosbag_images_tool.py /location_of_bag /topic_name /destination_of_extracted_frames`.
+Run: `python /rosbag_image_extraction_tool.py /location_of_bag /topic_name /destination_of_extracted_frames`.
 
 ### GUI
 
-Run: `rosbag_images_gui.py`. 
+Run: `rosbag_image_extraction_gui.py`. 
 Features: 
 - Graphical interface.
 - Can specify multiple topics.
